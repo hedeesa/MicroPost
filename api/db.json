@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "My Best programming Language",
+      "body": "First one would be Js and the second one is Python.\nboth of them are scripting languages",
+      "id": 1
+    },
+    {
+      "title": "How was web for me",
+      "body": "\"if you don't understand a topic, change your study material\"",
+      "id": 2
+    },
+    {
+      "title": "Hello",
+      "body": "console.log(\"Hello World\")",
+      "id": 3
+    }
+  ]
+}

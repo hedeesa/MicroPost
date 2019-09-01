@@ -1,0 +1,76 @@
+@import "utilities";
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  color: $dark-color;
+}
+
+#navbar {
+  background: $primary-color;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+#title {
+  margin-bottom: 1rem;
+  h2 {
+    font-weight: normal;
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+#input-area {
+  display: grid;
+  grid-template-areas: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+
+  input,
+  textarea {
+    padding: 0.4rem 0.5rem;
+    border: 1px solid $border-color;
+    border-radius: 3px;
+  }
+  textarea {
+    padding: 0.4rem 0.5rem 1rem;
+  }
+  #back {
+    margin-left: 0.5rem;
+    color: $dark-color;
+  }
+  #submit,
+  #update {
+    background: $primary-color;
+    font-size: 0.9rem;
+  }
+}
+#edit {
+  color: $primary-color;
+}
+#remove {
+  margin-left: 1rem;
+  color: red;
+}
+
+.alert {
+  text-align: center;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+.green {
+  border: 1px solid green;
+  color: green;
+  background: rgb(204, 238, 204);
+}
+.red {
+  border: 1px solid red;
+  color: red;
+  background: rgb(248, 217, 217);
+}

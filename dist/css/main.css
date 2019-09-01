@@ -1,0 +1,93 @@
+article {
+  max-width: 600px;
+  margin: 0 auto; }
+
+i {
+  cursor: pointer; }
+
+.container {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.container-card {
+  border: 1px solid #c9c8c8;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem; }
+
+.btn {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer; }
+
+.buttons {
+  display: flex;
+  margin-top: 1rem; }
+
+.post-header p {
+  font-size: 1.3rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Dosis", sans-serif;
+  color: #575757; }
+
+#navbar {
+  background: #0077ff;
+  color: white;
+  padding: 1rem 2rem; }
+
+#title {
+  margin-bottom: 1rem; }
+  #title h2 {
+    font-weight: normal;
+    font-size: 3rem; }
+  #title p {
+    font-size: 1.5rem; }
+
+#input-area {
+  display: grid;
+  grid-template-areas: repeat(3, 1fr);
+  grid-gap: 0.5rem; }
+  #input-area input,
+  #input-area textarea {
+    padding: 0.4rem 0.5rem;
+    border: 1px solid #c9c8c8;
+    border-radius: 3px; }
+  #input-area textarea {
+    padding: 0.4rem 0.5rem 1rem; }
+  #input-area #back {
+    margin-left: 0.5rem;
+    color: #575757; }
+  #input-area #submit,
+  #input-area #update {
+    background: #0077ff;
+    font-size: 0.9rem; }
+
+#edit {
+  color: #0077ff; }
+
+#remove {
+  margin-left: 1rem;
+  color: red; }
+
+.alert {
+  text-align: center;
+  padding: 0.4rem;
+  border-radius: 5px; }
+
+.green {
+  border: 1px solid green;
+  color: green;
+  background: #cceecc; }
+
+.red {
+  border: 1px solid red;
+  color: red;
+  background: #f8d9d9; }

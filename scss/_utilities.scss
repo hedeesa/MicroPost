@@ -1,0 +1,39 @@
+@import "variables";
+
+article {
+  max-width: 600px;
+  margin: 0 auto;
+}
+i {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container-card {
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.btn {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.post-header {
+  p {
+    font-size: 1.3rem;
+  }
+}
